@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt install nginx -y
+
 MYSITE=/var/www/mysite
 
 sudo mkdir -p $MYSITE
